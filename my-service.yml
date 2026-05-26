@@ -1,5 +1,5 @@
 app:
-  greeting: "Merhaba Config Server'dan!"
+  greeting: "Merhaba Config Server'dan!GTI REPO"
 
 server:
   port: 8081
