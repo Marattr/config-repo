@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/customer
+    url: jdbc:postgresql://localhost:5432/murat
     username: murat
     password: ${DB_PASSWORD:murat}
     hikari:
