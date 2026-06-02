@@ -1,5 +1,5 @@
 app:
-  greeting: "Merhaba Config Server'dan!GIT DEV"
+  greeting: "Merhaba Config Server'dan!GIT REPO"
 
 server:
   port: 8081
