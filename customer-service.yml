@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/customer?currentSchema=customer
+    url: jdbc:postgresql://host.docker.internal:5432/customer?currentSchema=customer
     username: murat
     password: ${DB_PASSWORD:murat}
     hikari:
