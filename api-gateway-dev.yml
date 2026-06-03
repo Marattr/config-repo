@@ -2,6 +2,11 @@ server:
   port: 8080
 
 spring:
+  security:
+    jwt:
+      secret: ${JWT_SECRET:#ihs.com.tr!ihscomtr-secret-key#}
+
+spring:
   application:
     name: api-gateway
   cloud:
