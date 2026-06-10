@@ -7,4 +7,5 @@ spring:
     name: auth-service
   security:
     jwt:
-      secret: ${JWT_SECRET:#ihs.com.tr!ihscomtr-secret-key#}
+      secret: ${JWT_SECRET:I2locy5jb20udHIhaWhzY29tdHItc2VjcmV0LWtleSM=}
+#secret #ihs.com.tr!ihscomtr-secret-key#
