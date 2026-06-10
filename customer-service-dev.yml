@@ -1,5 +1,6 @@
 app:
   greeting: "Merhaba Config Server'dan!GIT 222"
+  x-api-key: "X_API_KEY"
 
 server:
   port: 8082
