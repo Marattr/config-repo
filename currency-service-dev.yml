@@ -1,11 +1,16 @@
 app:
   greeting: "Merhaba Config Server'dan!GIT REPO"
   x-api-key: "X_API_KEY"
-
+  
 server:
   port: 8081
 
 spring:
+  application:
+    name: currency-service
+  security:
+    jwt:
+      secret: ${JWT_SECRET:#ihs.com.tr!ihscomtr-secret-key#}
   datasource:
     url: jdbc:postgresql://${DATABASE_URL:localhost:5432}/murat
     username: murat
