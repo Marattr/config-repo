@@ -7,7 +7,7 @@ server:
 
 spring:
   application:
-    name: currency-service
+    name: customer-service
   security:
     jwt:
       secret: ${JWT_SECRET:#ihs.com.tr!ihscomtr-secret-key#}
