@@ -1,4 +1,5 @@
 server:
   port: 8083
-  x-api-key: "X_API_KEY"
+app:
+  xapikey: "X_API_KEY"
 
