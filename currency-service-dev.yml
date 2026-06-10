@@ -1,5 +1,6 @@
 app:
   greeting: "Merhaba Config Server'dan!GIT REPO"
+  x-api-key: "X_API_KEY"
 
 server:
   port: 8081
